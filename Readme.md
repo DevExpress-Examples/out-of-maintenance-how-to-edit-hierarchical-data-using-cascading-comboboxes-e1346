@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [Default.aspx](./CS/MultiCombo/Default.aspx) (VB: [Default.aspx](./VB/MultiCombo/Default.aspx))
-* [Default.aspx.cs](./CS/MultiCombo/Default.aspx.cs) (VB: [Default.aspx](./VB/MultiCombo/Default.aspx))
+* [Default.aspx.cs](./CS/MultiCombo/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/MultiCombo/Default.aspx.vb))
 <!-- default file list end -->
 # How to edit hierarchical data using cascading comboboxes
 
