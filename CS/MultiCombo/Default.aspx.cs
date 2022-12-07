@@ -8,7 +8,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
-using DevExpress.Web.ASPxEditors;
+using DevExpress.Web;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 
@@ -52,7 +52,7 @@ namespace MultiCombo
             combo4.Value = null;
         }
 
-        protected void ASPxGridView1_HtmlEditFormCreated(object sender, DevExpress.Web.ASPxGridView.ASPxGridViewEditFormEventArgs e)
+        protected void ASPxGridView1_HtmlEditFormCreated(object sender, DevExpress.Web.ASPxGridViewEditFormEventArgs e)
         {
             ASPxComboBox combo2 = ((ASPxComboBox)ASPxGridView1.FindEditFormTemplateControl("Cat2"));
             if (Request.Params[combo2.UniqueID] != null) return;

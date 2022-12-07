@@ -9,7 +9,7 @@ Imports System.Web.UI
 Imports System.Web.UI.WebControls
 Imports System.Web.UI.WebControls.WebParts
 Imports System.Web.UI.HtmlControls
-Imports DevExpress.Web.ASPxEditors
+Imports DevExpress.Web
 Imports System.Collections.Generic
 Imports System.Collections.Specialized
 
@@ -55,7 +55,7 @@ Namespace MultiCombo
 			combo4.Value = Nothing
 		End Sub
 
-		Protected Sub ASPxGridView1_HtmlEditFormCreated(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxGridView.ASPxGridViewEditFormEventArgs)
+		Protected Sub ASPxGridView1_HtmlEditFormCreated(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxGridViewEditFormEventArgs)
 			Dim combo2 As ASPxComboBox = (CType(ASPxGridView1.FindEditFormTemplateControl("Cat2"), ASPxComboBox))
 			If Request.Params(combo2.UniqueID) IsNot Nothing Then
 				Return
